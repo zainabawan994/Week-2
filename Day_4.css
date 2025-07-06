@@ -1,0 +1,113 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 30px;
+}
+
+h1 {
+    color: #264653;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 32px;
+    padding: 18px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* Backgrounds */
+.background-demo {
+    background: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png'), #a8dadc;
+    color: #222;
+    border: 1px solid #457b9d;
+}
+
+/* Borders */
+.border-demo {
+    border: 4px dashed #e76f51;
+    background: #f1faee;
+    color: #222;
+}
+
+/* Shadows */
+.shadow-demo {
+    background: #f4a261;
+    color: #222;
+    border: 1px solid #e9c46a;
+    box-shadow: 0 8px 24px rgba(44, 62, 80, 0.18);
+}
+
+/* Gradients */
+.gradient-demo {
+    background: linear-gradient(90deg, #457b9d 0%, #a8dadc 100%);
+    color: #fff;
+    border: none;
+}
+
+/* Display */
+.display-inline {
+    display: inline;
+    background: #b7e4c7;
+    padding: 4px 10px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+.display-block {
+    display: block;
+    background: #f9c74f;
+    padding: 4px 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+.display-inline-block {
+    display: inline-block;
+    background: #90be6d;
+    padding: 4px 10px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+.display-none {
+    display: none;
+}
+
+/* Positioning */
+.position-static {
+    position: static;
+    background: #f94144;
+    color: #fff;
+    padding: 6px 12px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+.position-relative {
+    position: relative;
+    left: 20px;
+    background: #577590;
+    color: #fff;
+    padding: 6px 12px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+.position-absolute {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    background: #f3722c;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+.position-fixed {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #43aa8b;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    z-index: 100;
+}
